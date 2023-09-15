@@ -7,7 +7,7 @@ const CartAccounts = ({selectCourses,totalCredit,remainingCredit}) => {
             <hr className="my-2" />
             <h2 className="text-xl font-semibold">Course Name </h2>
             <ol>
-                {selectCourses.map((selectCourse,idx) => <CartAccount key={idx} selectCourse={selectCourse}></CartAccount>)}
+                {selectCourses.map((selectCourse,idx) => <CartAccount key={idx} selectCourse={selectCourse} index={idx}></CartAccount>)}
             </ol>
             <hr className="my-2" />
             <h2 className='text-xl font-semibold my-2'>Total Credit Hour: {totalCredit}</h2>

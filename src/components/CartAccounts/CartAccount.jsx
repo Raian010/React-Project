@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
-const CartAccount = ({selectCourse}) => {
-    const {id,title} = selectCourse;
+const CartAccount = ({selectCourse,index}) => {
+    const {title} = selectCourse;
     return (
         <div>
             <ol>
-            <li className='text-normal'>{id}.{title}</li>
+            <li className='text-normal'>{index + 1}. {title}</li>
             </ol>
             
         </div>
@@ -13,6 +13,7 @@ const CartAccount = ({selectCourse}) => {
 
 CartAccount.propTypes= {
     selectCourse: PropTypes.object.isRequired,
+    index: PropTypes.number
 }
 
 export default CartAccount;
