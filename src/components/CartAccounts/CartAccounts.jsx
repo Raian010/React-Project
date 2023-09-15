@@ -16,7 +16,7 @@ const CartAccounts = ({selectCourses,totalCredit,remainingCredit}) => {
 };
 
 CartAccounts.propTypes= {
-    selectCourses: PropTypes.object.isRequired,
+    selectCourses: PropTypes.array.isRequired,
     totalCredit: PropTypes.number,
     remainingCredit: PropTypes.number
 }

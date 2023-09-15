@@ -11,7 +11,7 @@
       "id": 2,
       "img": "https://i.postimg.cc/HkJF97sV/Rectangle-2-3.png",
       "title": "Introduction to Algorithms",
-      "details": "An algorithm is a step-wise representation of a solution to a given problem.An algorithm is a step-wise representation of a solution.",
+      "details": "An algorithm is a step-wise representation of a solution to a given problem.This is a procedure for solving problems in a number of steps.",
       "price": 19095,
       "credit_hour": 4
     },

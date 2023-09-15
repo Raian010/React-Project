@@ -20,8 +20,7 @@ const Courses = ({handleCourse}) => {
 };
 
 Courses.propTypes= {
-    course: PropTypes.object.isRequired,
-    handleCourse: PropTypes.func
+    handleCourse: PropTypes.func.isRequired
 }
 
 export default Courses;
