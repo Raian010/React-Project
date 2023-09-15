@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import { FaBeer } from 'react-icons/fa';
-const Course = ({course}) => {
+import { FaBook } from 'react-icons/fa';
+const Course = ({course,handleCourse}) => {
     const {img,title,details,price,credit_hour} = course;
     return (
         <div className="border p-1 rounded-lg text-center">
@@ -9,17 +9,18 @@ const Course = ({course}) => {
            </div>
             <h2 className="text-2xl my-1 font-semibold">{title} </h2>
             <p className="text-sm my-1  font-thin">{details}</p>
-            <div className="flex items-center justify-evenly my-1">
+            <div className="flex items-center justify-around my-1">
                 <p className="text-sm font-extralight"><span className='text-lg mr-3'>$</span> Price: {price} </p>
-                <p><span>{FaBeer}</span> Credit: {credit_hour} </p>
+                <p className='flex items-center'><span className='mr-3'><FaBook /></span> Credit: {credit_hour}hr </p>
             </div>
-            <button className='bg-blue-500 w-[180px] my-2 p-2 rounded-xl'>Select</button>
+            <button onClick={() => handleCourse(course)} className='bg-blue-500 w-full text-white my-2 p-2 rounded-xl'>Select</button>
         </div>
     );
 };
 
 Course.propTypes= {
-    course: PropTypes.object.isRequired
+    course: PropTypes.object.isRequired,
+    handleCourse:PropTypes.func
 }
 
 export default Course;

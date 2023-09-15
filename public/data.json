@@ -4,7 +4,7 @@
       "img": "https://i.postimg.cc/HLDv0Zhh/Rectangle-2-2.png",
       "title": "Introduction to C",
       "details": "C is a general-purpose high level language that was originally developed by Dennis Ritchie for the Unix operating system.",
-      "price": 29.99,
+      "price": 15000,
       "credit_hour": 3
     },
     { 
@@ -12,7 +12,7 @@
       "img": "https://i.postimg.cc/HkJF97sV/Rectangle-2-3.png",
       "title": "Introduction to Algorithms",
       "details": "An algorithm is a step-wise representation of a solution to a given problem.An algorithm is a step-wise representation of a solution.",
-      "price": 19.95,
+      "price": 19095,
       "credit_hour": 4
     },
     { 
@@ -20,7 +20,7 @@
       "img": "https://i.postimg.cc/T386K9ft/Rectangle-2-4.png",
       "title": "Introduction to C++",
       "details": "C++ is one of the world's most popular programming languages. C++ can be found in today's operating systems,Graphical User",
-      "price": 14.99,
+      "price": 14000,
       "credit_hour": 3
     },
     { 
@@ -28,7 +28,7 @@
       "img": "https://i.postimg.cc/QC37Nz0c/Rectangle-3.png",
       "title": "Basic Data Structures",
       "details": "Arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs are the basic data structures.",
-      "price": 24.99,
+      "price": 24000,
       "credit_hour": 2
     },
     { 
@@ -36,7 +36,7 @@
       "img": "https://i.postimg.cc/GpttQKTv/Rectangle-2.png",
       "title": "Introduction to OOP",
       "details": "In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming",
-      "price": 34.95,
+      "price": 34000,
       "credit_hour": 3
     },
     { 
@@ -44,7 +44,7 @@
       "img": "https://i.postimg.cc/BZkT18yh/Rectangle-2-5.png",
       "title": "Software Engineering",
       "details": "Software engineering is the branch of computer science that deals with the design,testing, and maintenance of software applications.",
-      "price": 22.50,
+      "price": 22500,
       "credit_hour": 3
     },
     { 
@@ -52,7 +52,7 @@
       "img": "https://i.postimg.cc/PJyCX5Lk/Rectangle-3-1.png",
       "title": "AWS, Cloud Computing",
       "details": "Amazon Web Services (AWS) is the world's most comprehensive and broadly adopted cloud, offering over 200 fully featured services.",
-      "price": 27.99,
+      "price": 27909,
       "credit_hour": 3
     },
     { 
@@ -60,7 +60,7 @@
       "img": "https://i.postimg.cc/jSm0p4kH/Rectangle-2-1.png",
       "title": "Database (MySQL)",
       "details": "MySQL is a relational database management system.The database structure is organized into physical files optimized for speed.",
-      "price": 39.99,
+      "price": 30900,
       "credit_hour": 4
     },
     {
@@ -68,7 +68,7 @@
       "img": "https://i.postimg.cc/sxdYQxDQ/Rectangle-2-6.png",
       "title": "Problem-Solving Part",
       "details": "Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints. - Think Like a Programmer.",
-      "price": 18.75,
+      "price": 18075,
       "credit_hour": 4
     }
   ]
