@@ -1,9 +1,12 @@
 import PropTypes from 'prop-types';
 const CartAccount = ({selectCourse}) => {
-    const {title} = selectCourse;
+    const {id,title} = selectCourse;
     return (
         <div>
-            <li className='text-normal'>{title}</li>
+            <ol>
+            <li className='text-normal'>{id}.{title}</li>
+            </ol>
+            
         </div>
     );
 };

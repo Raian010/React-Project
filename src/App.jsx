@@ -30,10 +30,20 @@ function App() {
 
         const creditRemaining = 20 - credit;
 
+        if(creditRemaining < 0){
+          toast.warn('You can not go below 0', {
+            position: toast.POSITION.TOP_RIGHT, 
+            autoClose: 3000, 
+            hideProgressBar: false, 
+            closeOnClick: true, 
+            pauseOnHover: true,
+          });
+        }
+
         if(credit > 20){
           toast.warn('You can not add more than 20 credit hours', {
             position: toast.POSITION.TOP_RIGHT, 
-            autoClose: 2000, 
+            autoClose: 3000, 
             hideProgressBar: false, 
             closeOnClick: true, 
             pauseOnHover: true,
