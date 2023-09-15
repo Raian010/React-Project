@@ -5,7 +5,7 @@
       "title": "Introduction to C",
       "details": "C is a general-purpose high level language that was originally developed by Dennis Ritchie for the Unix operating system.",
       "price": 15000,
-      "credit_hour": 3
+      "credit_hour": 2
     },
     { 
       "id": 2,
@@ -21,7 +21,7 @@
       "title": "Introduction to C++",
       "details": "C++ is one of the world's most popular programming languages. C++ can be found in today's operating systems,Graphical User",
       "price": 14000,
-      "credit_hour": 3
+      "credit_hour": 6
     },
     { 
       "id": 4,
@@ -29,7 +29,7 @@
       "title": "Basic Data Structures",
       "details": "Arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs are the basic data structures.",
       "price": 24000,
-      "credit_hour": 2
+      "credit_hour": 4
     },
     { 
       "id": 5,
@@ -37,7 +37,7 @@
       "title": "Introduction to OOP",
       "details": "In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming",
       "price": 34000,
-      "credit_hour": 3
+      "credit_hour": 4
     },
     { 
       "id": 6,
@@ -45,7 +45,7 @@
       "title": "Software Engineering",
       "details": "Software engineering is the branch of computer science that deals with the design,testing, and maintenance of software applications.",
       "price": 22500,
-      "credit_hour": 3
+      "credit_hour": 5
     },
     { 
       "id": 7,
@@ -53,7 +53,7 @@
       "title": "AWS, Cloud Computing",
       "details": "Amazon Web Services (AWS) is the world's most comprehensive and broadly adopted cloud, offering over 200 fully featured services.",
       "price": 27909,
-      "credit_hour": 3
+      "credit_hour": 5
     },
     { 
       "id": 8,

@@ -4,7 +4,7 @@ const CartAccount = ({selectCourse,index}) => {
     return (
         <div>
             <ol>
-            <li className='text-normal'>{index + 1}. {title}</li>
+            <li className='text-normal my-2'>{index + 1}. {title}</li>
             </ol>
             
         </div>
