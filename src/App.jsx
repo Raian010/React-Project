@@ -10,6 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const [selectCourses,setSelectCourses] = useState([]);
   const [totalCredit,setTotalCredit] = useState(0);
+  const [remainingCredit,setRemainingCredit] = useState(20);
   const handleCourse = course => {
        const isExist = selectCourses.find(selectCourse => selectCourse.id === course.id);
        let credit = course.credit_hour;
@@ -26,9 +27,24 @@ function App() {
         selectCourses.forEach(selectCourse => {
            credit = credit + selectCourse.credit_hour;
         })
-        setTotalCredit(credit);
+
+        const creditRemaining = 20 - credit;
+
+        if(credit > 20){
+          toast.warn('You can not add more than 20 credit hours', {
+            position: toast.POSITION.TOP_RIGHT, 
+            autoClose: 2000, 
+            hideProgressBar: false, 
+            closeOnClick: true, 
+            pauseOnHover: true,
+          });
+        }
+        else{
+          setTotalCredit(credit);
+          setRemainingCredit(creditRemaining);
         const newCourses = [...selectCourses,course];
        setSelectCourses(newCourses);
+        }
        }
   }
 
@@ -37,7 +53,7 @@ function App() {
       <Header></Header>
       <div className='flex justify-evenly'>
         <Courses handleCourse={handleCourse}></Courses>
-        <CartAccounts totalCredit={totalCredit} selectCourses={selectCourses}></CartAccounts>
+        <CartAccounts totalCredit={totalCredit} remainingCredit={remainingCredit} selectCourses={selectCourses}></CartAccounts>
         <ToastContainer />
       </div>
       
